@@ -13,7 +13,7 @@ export const theme = extendTheme({
   colors,
   components: {
     Button: buttonTheme,
-    Badge: badgeTheme,
+    // Badge: badgeTheme,
     Modal: modalTheme,
     Input: inputTheme,
     FormLabel: defineStyleConfig({
@@ -23,7 +23,6 @@ export const theme = extendTheme({
   styles: {
     global: {
       'html, body': {
-        color: 'gray.700',
         lineHeight: 'tall',
       },
       a: {

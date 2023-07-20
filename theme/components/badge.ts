@@ -14,7 +14,7 @@ export const badgeTheme = defineStyleConfig({
   variants: {
     subtle: defineStyle((props) => {
       const { colorScheme: c } = props
-      
+
       return { color: `${c}.500` }
     }),
   },
