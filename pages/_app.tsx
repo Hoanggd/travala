@@ -10,25 +10,31 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 
 import '@/config/dayjs'
 import '@/config/zod'
+import Head from 'next/head'
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
-	getLayout?: (page: ReactElement) => ReactNode
+  getLayout?: (page: ReactElement) => ReactNode
 }
 
 const queryClient = new QueryClient()
 
 type AppPropsWithLayout = AppProps & {
-	Component: NextPageWithLayout
-	pageProps: any
+  Component: NextPageWithLayout
+  pageProps: any
 }
 
 export default function App({ Component, pageProps }: AppPropsWithLayout) {
-	const getLayout = Component.getLayout ?? ((page) => page)
+  const getLayout = Component.getLayout ?? ((page) => page)
 
-	return (
-		<QueryClientProvider client={queryClient}>
-			<ReactQueryDevtools initialIsOpen={false} />
-			<ChakraProvider theme={theme}>{getLayout(<Component {...pageProps} />)}</ChakraProvider>
-		</QueryClientProvider>
-	)
+  return (
+    <QueryClientProvider client={queryClient}>
+      <ReactQueryDevtools initialIsOpen={false} />
+      <Head>
+        <title>Travala</title>
+      </Head>
+      <ChakraProvider theme={theme}>
+        {getLayout(<Component {...pageProps} />)}
+      </ChakraProvider>
+    </QueryClientProvider>
+  )
 }
