@@ -33,49 +33,49 @@ const hotels = [
     name: 'Wild Lotus Hotel Apartment 2',
     rating: 4,
     address: 'Tay Ho, Hanoi',
-    price: 457,
+    price: 100,
     image:
       'https://cf.bstatic.com/xdata/images/hotel/square600/467681103.webp?k=16732d2d56d5071b98210075021d19f2cadab2367bb5234e2606650e7c221578&o=',
   },
   {
-    name: 'Le Foyer Hote',
+    name: 'Golden Sail Hotel & Spa',
     rating: 5,
-    address: '1 Thanh nien Road, ba dinh',
-    price: 127,
+    address: 'Ba Dinh, Hanoi',
+    price: 369,
     image:
-      'https://i.travelapi.com/lodging/1000000/120000/114500/114496/e54abb9a_b.jpg',
+      'https://cf.bstatic.com/xdata/images/hotel/square600/416040615.webp?k=ad6f398adaf856fc2ce8372967c87f998f8ced794f3918a25fc80912f0f15196&o=',
   },
   {
-    name: 'Le Foyer Hote',
+    name: 'Gloud Hote',
     rating: 5,
-    address: '1 Thanh nien Road, ba dinh',
-    price: 127,
+    address: 'Hanoi',
+    price: 400,
     image:
-      'https://i.travelapi.com/lodging/1000000/120000/114500/114496/e54abb9a_b.jpg',
+      'https://cf.bstatic.com/xdata/images/hotel/square600/460770532.webp?k=006a8897ea5f4a117edac68a688736472840132c8ff8aaac652584583d1ce188&o=',
   },
   {
-    name: 'Le Foyer Hote',
+    name: 'Hanoi Prime Center Hotel',
     rating: 5,
-    address: '1 Thanh nien Road, ba dinh',
-    price: 127,
+    address: 'Hoan Kiem, Hanoi',
+    price: 500,
     image:
-      'https://i.travelapi.com/lodging/1000000/120000/114500/114496/e54abb9a_b.jpg',
+      'https://cf.bstatic.com/xdata/images/hotel/square600/247138462.webp?k=db235879f24c07e0b1f66e550802d3f0f59da767b50e21e888a7b08af3121fb5&o=',
   },
   {
-    name: 'Le Foyer Hote',
+    name: 'Madelise Central Hotel & Travel',
     rating: 5,
-    address: '1 Thanh nien Road, ba dinh',
-    price: 127,
+    address: 'Hoan Kiem, Hanoi',
+    price: 200,
     image:
-      'https://i.travelapi.com/lodging/1000000/120000/114500/114496/e54abb9a_b.jpg',
+      'https://cf.bstatic.com/xdata/images/hotel/square600/215586998.webp?k=e6bb1b0771536cab2ecd5a3d7f393304f9a6805421dcc8c5a33375730f91d51b&o=',
   },
   {
-    name: 'Le Foyer Hote',
+    name: 'Lucky Central Hotel & Travel',
     rating: 5,
-    address: '1 Thanh nien Road, ba dinh',
-    price: 127,
+    address: '1 Thanh nien Road, Ba dinh',
+    price: 800,
     image:
-      'https://i.travelapi.com/lodging/1000000/120000/114500/114496/e54abb9a_b.jpg',
+      'https://cf.bstatic.com/xdata/images/hotel/square600/449208812.webp?k=8e7a48773e71d55e9b8b095b9a6bd51480324bb464bc79db6897cb6328c47608&o=',
   },
 ]
 

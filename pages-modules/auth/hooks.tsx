@@ -6,8 +6,6 @@ export type User = {
 }
 
 export const useLogin = () => {
-  const queryClient = useQueryClient()
-
   return useMutation(
     async (user: User) => {
       localStorage.setItem('user', JSON.stringify(user))
