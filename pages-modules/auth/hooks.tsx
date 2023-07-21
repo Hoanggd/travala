@@ -1,3 +1,4 @@
+import { sleep } from '@/libs/common'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 
 export type Plan = 'basic' | 'essential' | 'premium' | undefined
@@ -36,6 +37,7 @@ export const useChangePlan = () => {
 
   return useMutation(
     async (plan: Plan) => {
+      await sleep(1000)
       localStorage.setItem('plan', plan || '')
     },
     {

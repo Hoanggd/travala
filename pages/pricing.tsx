@@ -163,6 +163,7 @@ function Page() {
                 <Text>{selectedPlan?.price}.00</Text>
               </HStack>
               <Button
+                isLoading={changePlan.isLoading}
                 onClick={() => {
                   changePlan.mutate(selected, {
                     onSuccess: () => {
